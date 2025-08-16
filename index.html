@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowUp Skincare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-800 font-sans">
+    <!-- hero section -->
+    <section class="bg-gradient-to-r from-pink-300 to-purple-400 text-white py-20 px-6 text-center">
+
+        <h1 class="text-5xl font-bold mb-4">GlowUp Skincare</h1>
+        <p class="text-lg mb-6">Reveal your radiant skin with nature beauty</p>
+        <button class="bg-white text-pink-500 font-semibold 
+             px-6 py-3 rounded-full hover:bg-pink-100 transition duration-300">Shop Now
+        </button>
+
+    </section>
+
+    <!-- Feature section -->
+    <section class="py-10 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Why GlowUp?</h2>
+        <div class="grid grid-cols-1 md:grig-cols-3 gap-8">
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition ">
+                <h3 class="text-xl font-semibold mb-2">Hydration Boost</h3>
+                <p>Deeply nourishes your skin with natural ingredients for a lasting glow.</p>
+            </div>
+
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition ">
+                <h3 class="text-xl font-semibold mb-2">Gentle & Clean</h3>
+                <p>Formulated without harsh chemicals-perfect for sensitive skin.</p>
+            </div>
+
+            <div class="bg-pink-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition ">
+                <h3 class="text-xl font-semibold mb-2">Radiant Results</h3>
+                <p>Visible improvement in texture, tone and brightness within weeks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">What Our Customer Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Testimonials card 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <p class="text-pink-600 italic md-4">"GlowUp transformed my skin! I feel confident and radiant every
+                    day."</p>
+                <div class="flex items-center gap-4">
+                    <img src="https://i.pravatar.cc/60?img=5" alt="User" class="w-12 h-12 mt-2 rounded-full">
+                    <div>
+                        <p class="font-semibold">Aisha R</p>
+                        <p class="text-sm text-gray-500">GlowUp Enthusiast</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials card 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <p class="text-pink-600 italic md-4">"I've tried everything-GlowUp is the only product that actually
+                    worked."</p>
+                <div class="flex items-center gap-4">
+                    <img src="https://i.pravatar.cc/60?img=12" alt="User" class="w-12 h-12 mt-2 rounded-full">
+                    <div>
+                        <p class="font-semibold">Meera S</p>
+                        <p class="text-sm text-gray-500">SkinCare Lover</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials card 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <p class="text-pink-600 italic md-4">"The glow is real! My skin feels soft, smooth and healthy."</p>
+                <div class="flex items-center gap-4">
+                    <img src="https://i.pravatar.cc/60?img=20" alt="User" class="w-12 h-12 mt-2 rounded-full">
+                    <div>
+                        <p class="font-semibold">Divya K</p>
+                        <p class="text-sm text-gray-500">Happy Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-purple-50 py-16 px-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Stay Glowing✨</h2>
+        <p class="text-lg mb-6 text-gray-600">Subscribe for skincare tips, exclusive offers and more!</p>
+
+        <form onsubmit="handleSubmit(event)" class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+            <input type="email" id="emailInput" placeholder="Enter your email" required class="w-full px-4 py-3 rounded-lg border border-gray-300
+                focus:ring-2 focus:ring-pink-400 outline-none">
+            <button type="submit" class="bg-pink-500 text-white px-6 py-3 rounded-lg hover:bg-pink-600
+                    transition duration-300">Subscribe</button>
+        </form>
+        <p id="feedback" class="mt-4 text-green-600 font-medium hidden">Thanks for Subscribing!</p>
+
+    </section>
+
+
+    <!-- call to action -->
+    <section class="bg-pink-500 text-white py-12 text-center">
+        <h2 class="text-2xl font-bold mb-4">Ready to glow?</h2>
+        <button class="bg-white text-pink-500 font-semibold px-6 py-3 
+              rounded-full hover:bg-pink-100 transition duration-300">Get Started</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 mt-3 py-6 text-center text-sm text-gray-600">
+        ©️ 2025 GlowUp SkinCare. All rights reserved.
+    </footer>
+</body>
+
+</html>
